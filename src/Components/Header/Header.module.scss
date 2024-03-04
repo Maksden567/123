@@ -1,0 +1,92 @@
+.header{
+    margin-bottom: 38px;
+    max-width: 1225px;
+    width: 100%;
+    background: #fff;
+    z-index: 1000;
+    position: fixed;
+}
+.headerAdaptive{
+    height: 340px;
+    border-radius: 0px 0px 16px 16px;
+    background: #fff;
+    position: relative;
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    max-width: 1225px;
+    width: 100%;
+    background: #fff;
+    z-index: 1000;
+    position: fixed;
+}
+.headerWrapper{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 29px 0px;
+    position: relative;
+    z-index: 1000;
+}
+.buttonDownload{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 12px;
+    background: #FF9500;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    div{
+        height: 24px;
+        width: 24px;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:1250px) {
+    .headerWrapper{
+        margin: 0px 40px;
+    }
+}
+@media screen and (max-width:900px) {
+    .buttonDownload {
+        padding: 13px 25px;
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width:550px) {
+    .headerWrapper{
+        margin: 0px 20px;
+    }
+}
+@media screen and (max-width:490px) {
+    .buttonDownload{
+        font-size: 12px;
+    }
+    .header{
+        margin-bottom: 24px;
+    }
+    .headerWrapper{
+        padding: 0;
+        padding-top: 22px;
+    }
+    .headerAdaptive{
+        height: 270px;
+    }
+}
+@media screen and (max-width:550px) {
+    .buttonDownload{
+        font-size: 10px;
+    }
+}

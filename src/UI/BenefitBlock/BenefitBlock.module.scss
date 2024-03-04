@@ -1,0 +1,163 @@
+.benefitList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   padding-left: 16px;
+}
+
+.benefitListItem{
+    display: flex;
+   padding: 20px 0px;
+    
+}
+.benefitListItemImage{
+    margin-right: 16px;
+}
+
+.benefitListItemParagraph{
+
+    p{
+        margin: 0;
+        padding: 0;
+        color: #040404;
+        font-size: 18px;
+        font-family: 'Inter';
+        font-weight: 500;
+    }
+    
+}
+
+.benefitBlockTitle{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   padding: 0px 16px;
+   padding-top: 40px;
+   padding-bottom: 56px;
+    h1{
+        color: #34C759;
+        font-size: 38px;
+        font-family: 'Inter';
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        font-size: 14px;
+        font-family: 'Inter';
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.benefitBlock{
+    margin-top: 62px;
+    max-width: 580px;
+   width: 100%;
+    border-radius: 20px;
+    border: 1px solid #D9DFE5;
+
+}
+@media screen and (max-width:1250px) {
+    .benefitBlockTitle{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .benefitBlock{
+        
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    
+    .benefitBlock{ 
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .benefitBlockTitle{
+        h1{
+          font-size: 33px;
+          padding-bottom: 16px;
+          margin-bottom: 16px; 
+        }
+        padding-bottom: 30px;
+    }
+    .benefitListItemImage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+            img{
+                width: 16px;
+            }
+    }
+    .benefitListItemParagraph{
+        p{
+            font-size: 16px;
+        }
+        
+    }
+    .benefitListItem{
+       align-items: center;
+        
+    }
+}
+@media screen and (max-width:490px) {
+    
+    .benefitBlockTitle{ 
+        h1{
+            font-size: 24px;
+        }
+        p{
+            font-size: 12px;
+            margin-bottom: 24px;
+        }
+        padding-bottom: 0;
+        
+    }
+    .benefitListItemParagraph{
+        p{
+            font-size: 14px;
+        }
+        
+    }
+}
+@media screen and (max-width:390px) {
+    
+    .benefitBlockTitle{ 
+        h1{
+            font-size: 24px;
+        }
+        p{
+            font-size: 10px;
+            margin-bottom: 14px;
+        }
+        padding-bottom: 0;
+        
+    }
+    .benefitListItemParagraph{
+        p{
+            font-size: 12px;
+        }
+        
+    }
+}
+
+@media screen and (max-width:370px) {
+    
+   
+    .benefitList{
+        padding-right: 16px;
+    }
+    .benefitBlock{
+        margin-top: 25px;
+    }
+}

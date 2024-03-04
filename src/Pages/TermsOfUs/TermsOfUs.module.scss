@@ -1,0 +1,56 @@
+li a{
+    
+    font-family: 'Inter';
+    font-size: 20px;
+}
+li{
+    margin-bottom: 10px;
+}
+.menu{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width:1250px) {
+    .wrapper{
+        margin: 0px 40px;
+    }
+}
+@media screen and (max-width:900px) {
+    li a{
+    
+        font-family: 'Inter';
+        font-size: 18px;
+    }
+    .menu{
+        margin-top: -30px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:600px) {
+    li a{
+    
+        font-family: 'Inter';
+        font-size: 16px;
+    }
+    .menu{
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .wrapper{
+        margin: 0px 20px;
+    }
+}
+@media screen and (max-width:450px) {
+    li a{
+    
+        font-family: 'Inter';
+        font-size: 14px;
+    }
+    .menu{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+}

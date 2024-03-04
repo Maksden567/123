@@ -1,0 +1,157 @@
+.inputEmail{
+    margin-bottom: 136px;
+}
+
+.inputEmailWrapper{
+    background: url('../../assets//bgSendBlock.png');
+    background-position: top;
+    background-repeat: no-repeat;
+   
+    padding: 0px 219px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 136px;
+    padding-top: 9px;
+}
+.title{
+    font-size: 38px;
+    font-family: 'Inter';
+    font-weight: 600;
+    margin: 0;
+}
+.subtitle{
+    max-width: 540px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin: 0;
+    margin-top: 12px;
+}
+.input{
+    padding: 16px;
+    width: 450px;
+    box-sizing: border-box;
+    border-radius: 12px 0px 0px 12px;
+    border: 1px solid #D9DFE5;
+    outline: none;
+}
+.inputBlock{
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+}
+.input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ADB9C7;
+}
+.btnSend{
+    
+    font-size: 20px;
+    padding: 13px 48px 15px 15px;
+    border: none;
+    background: #FF9500;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 0px 12px 12px 0px;
+    position: relative;
+}
+.btnSend::before{
+    content: '';
+    position: absolute;
+    background: url('../../assets/send.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 20px;
+    height: 20px;
+    right: 19px;
+    top: 17px;
+}
+
+@media screen and (max-width:800px) {
+    .inputEmailWrapper{
+        padding: 0px 100px;
+    }
+}
+@media screen and (max-width:640px) {
+    .inputEmailWrapper{
+        padding: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        background-size: contain;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .subtitle{
+        font-size: 16px;
+    }
+    .btnSend{
+        font-size: 15px;
+        &::before{
+            width: 15px;
+            height: 15px;
+            right: 24px;
+            top: 15px;
+        }
+    }
+    .input{
+        padding: 14px;
+    }
+    .input::placeholder{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:590px) {
+    .input{
+        width: 350px;
+    }
+}
+@media screen and (max-width:590px) {
+    .inputEmail{
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width:490px) {
+    .input{
+        width: 290px;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:430px) {
+    .input{
+        width: 248px;
+    }
+    .inputEmailWrapper{
+        margin-bottom: 100px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:390px) {
+    .btnSend{
+        font-size: 13px;
+        &::before{
+            width: 12px;
+            height: 12px;
+            right: 27px;
+            top: 16px;
+        }
+    }
+    .input{
+        padding: 13px;
+        width: 200px;
+    }
+    .input::placeholder{
+        font-size: 16px;
+    }
+}

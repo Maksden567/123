@@ -1,0 +1,41 @@
+.logo{
+    display: flex;
+    align-items: center;
+    img{
+        margin-right:16px ;
+    }
+}
+.logoTitle{
+    font-family: "Inter";
+    color: #097EFF;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:770px) {
+    .logoTitle{
+        font-size: 18px;
+    }
+    .logo{
+        img{
+            width: 25px;
+            margin-right: 10px;
+        }
+    }
+}
+@media screen and (max-width:490px) {
+    .logoTitle{
+        font-size: 14px;
+    }
+    .logo{
+        img{
+            width: 20px;
+            margin-right: 8px;
+        }
+    }
+}

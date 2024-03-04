@@ -1,0 +1,135 @@
+.mainBlockLeft{
+    width: 100%;
+}
+.mainBlockWrapper{
+    width: 595px;
+    padding-top: 102px;
+    padding-bottom: 273px;
+}
+
+.title{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 58px;
+   
+    margin: 0;
+    margin-bottom: 50px;
+}
+.subtitle{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    a:first-child{
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width:1420px) {
+    .mainBlockWrapper{
+        width: 73%;
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+    .mainBlockLeft{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    }
+    .title{
+        text-align: center;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .buttons{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .title{
+        font-size: 44px;
+    }
+    .subtitle{
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    .butttons a:first-child{
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width:760px) {
+    .title{
+        font-size: 37px;
+    }
+    .subtitle{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .title{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .subtitle{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+}
+@media screen and (max-width:640px) {
+    .title{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:630px) {
+    .mainBlockWrapper{
+        width: 100%;
+    }
+    .title{
+        font-size: 33px;
+        text-align: left;
+    }
+    .subtitle{
+        text-align: left;
+    }
+    .buttons a{
+        img{
+             width: 170px;
+        }
+       
+        &:first-child{
+            margin-right: 16px;
+        }
+    }
+}
+@media screen and (max-width:640px) {
+    .title{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .subtitle{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:370px) {
+    .title{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .subtitle{
+        font-size: 12px;
+    }
+    .buttons a img{
+        width: 135px;
+    }
+}

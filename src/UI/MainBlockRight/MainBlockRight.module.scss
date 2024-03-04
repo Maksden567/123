@@ -1,0 +1,88 @@
+.mainBlockRightWrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+   
+    
+}
+.blur{
+    position: absolute; 
+    top: 36%;
+    left: 37%;
+    width: 250px; 
+    height: 250px;
+    background-color: #097EFF;
+    filter: blur(500px); 
+    z-index: -1
+
+}
+
+@media screen and (max-width:1250px) {
+    .mainBlockRightWrapper{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .mainBlockRightWrapper{
+       
+        img{
+            width: 220px;
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    .mainBlockRightWrapper{
+       
+        img{
+            width: 200px;
+        }
+    }
+}
+@media screen and (max-width:470px) {
+    .mainBlockRightWrapper{
+       
+        img{
+            width: 180px;
+        }
+    }
+}
+@media screen and (max-width:410px) {
+    .mainBlockRightWrapper{
+       
+        img{
+            width: 165px;
+        }
+    }
+}
+@media screen and (max-width:390px) {
+    .mainBlockRightWrapper{
+       gap: 15px;
+       padding: 0;
+        img{
+            width: 155px;
+        }
+    }
+    .blur{
+        width: 200px;
+        height: 200px;
+        left: 17%;
+    }
+}
+@media screen and (max-width:370px) {
+    .mainBlockRightWrapper{
+       gap: 15px;
+       padding: 0;
+        img{
+            width: 125px;
+        }
+    }
+    
+}
+

@@ -1,0 +1,73 @@
+
+.blockLinksWrapper{
+    padding: 0px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 110px;
+}
+.subtitle{
+    font-family: 'Inter';
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.blockLinksButtons{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    a:first-child{
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .blockLinksWrapper{
+        padding: 0px 220px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .blockLinksWrapper{
+        padding: 0px 120px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width:840px) {
+    .blockLinksWrapper{
+        padding: 0px 70px;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width:860px) {
+    .subtitle{
+        font-size: 16px;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width:550px) {
+    .blockLinksWrapper{
+        padding: 0px 40px;
+        padding-top: 32px;
+    }
+}
+@media screen and (max-width:490px) {
+    .blockLinksButtons{
+        flex-direction: column;
+        a:first-child{
+            margin-right: 0px;
+            margin-bottom: 16px;
+        }
+    }
+    .subtitle{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:410px) {
+    .blockLinksWrapper{
+        padding-top: 32px;
+    }
+}
